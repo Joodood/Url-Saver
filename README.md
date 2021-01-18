@@ -1,5 +1,8 @@
 # Url-Saver
-This saves all your URLs (internet browsing tabs) in a database. Great for saving a whole list of tabs that you dont want to delete. 
+This saves all your URLs (internet browsing tabs) in a database. Just copy and paste your urls and save them together as a group! Great for saving a whole list of tabs that you dont want to delete. 
+
+
+
 from tkinter import *
 import webbrowser
 import sqlite3
@@ -87,12 +90,6 @@ def save_it():
     conn.commit()
     conn.close()
     
-#def add_it():
-#    global new_entry
-#    new_entry = Entry(root, width = 100)
-#    new_entry.config(textvariable = "")
-#    #new_textvar = StringVar()
-#    new_entry.pack()
 
 def open_it():
      webbrowser.open(entry.get())
@@ -103,9 +100,6 @@ def open_it():
      webbrowser.open(entry5.get())
      webbrowser.open(entry6.get())
      webbrowser.open(entry7.get())
-#    global new_entry
-#    webbrowser.open(yt.get(), new = 0, autoraise = True)
-#   webbrowser.open(new_entry.get())
 
 ###instantiates oid 
 def display_it():
@@ -146,9 +140,7 @@ def delete_it():
     c.execute("DELETE from insiousi WHERE oid = " + entry_id.get())
     entry_id.delete(0, END)
     #listbox.delete(0, END)
-    
-#    for row in c.fetchall():
-#        listbox.insert(0, row)
+
     conn.commit()
     conn.close()
 entry = Entry(root, text = "Name", width = 100, textvariable = yt)
