@@ -1,2 +1,5 @@
 This project posed several challenges to me. First, I wanted the freedom of the user to create an infinite amount of entrys. Accordinly, an infinite amount of database columns would need to be made as well. 
-I was able to add a new entry with the hit of one button, and assign a new textvariable to it so that webbroswer could open it.
+I was able to add a new entry with the hit of one button, and assign a new textvariable to it so that webbroswer could open it. However, I still cannot create another database column per-new-entry. 
+Second, I learned the importance of assigning textvariables to entrys. More specifically, you cannot call an entire entry's content without specifying what type of contents are in it. 
+Third, I got to brush up on my SQLITE skills. This app did not include a update option. Updating the elements in a database is not a problem and I can do it. This project was meant to be a on-the-go type deal, so there won't be much need for the user to edit anything.
+Fourth, this strengthened my User interface design skills. I pride myself in realizing that the name of the batch of URLS is MUCH more comfortable to be placed as the last step of the saving process, after you have selected all your URLS. This is because I wanted the user to get a chance to be able to come up with a better name for their URL groups as they copy and paste them. 
