@@ -1,0 +1,2 @@
+This project posed several challenges to me. First, I wanted the freedom of the user to create an infinite amount of entrys. Accordinly, an infinite amount of database columns would need to be made as well. 
+I was able to add a new entry with the hit of one button, and assign a new textvariable to it so that webbroswer could open it.
