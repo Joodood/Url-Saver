@@ -1,3 +1,6 @@
+https://github.com/Joodood/Url-Saver/issues/1#issue-788663889
+
+
 # Url-Saver
 This saves all your URLs (internet browsing tabs) in a database. Just copy and paste your urls and save them together as a group! Great for saving a whole list of tabs that you dont want to delete. 
 
